@@ -1,4 +1,4 @@
-name : wf-ci-develop
+name : wf-ci-check
 on:
    pull_request:
      branches:
