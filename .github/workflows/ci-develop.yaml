@@ -18,4 +18,4 @@ jobs:
        - name: Lint CSS Files With Stylelint
          run: npx  stylelint "**/*.css" 
        - name: Test Builing With Parcel 
-         run: npx pascel build "./src/index.html" --dist-dir "./dist" --public-url "./"
+         run: npx parcel build "./src/index.html" --dist-dir "./dist" --public-url "./"
